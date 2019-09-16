@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Python",
+        "type": "python",
+        "request": "launch",
+        "stopOnEntry": false,
+        "program": "${workspaceRoot}/src/main.py",
+        "pythonPath": "${config:python.pythonPath}",
+        "cwd": "${workspaceRoot}/src",
+        "args": [
+            "--board-id=0000",
+            "--config=../data/config.cfg",
+            "--export-format=SIMPLE_HTML",
+            "--load-from=../data/test_data.pickle",
+            "--output=../data/export/output.html",
+            "--sprint-name=Sprint 1"
+        ]
+    }]
+}

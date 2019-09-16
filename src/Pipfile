@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+"autopep8" = "*"
+"pep8" = "*"
+pylint = "*"
+rope = "*"
+
+[packages]
+jinja2 = "*"
+jira = "*"
+tqdm = "*"
+requests = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,8 @@
+/data/*
+!/data/config_sample.cfg
+
+.vscode/*
+!.vscode/launch_sample.json
+!.vscode/settings_sample.json
+
+*.pyc
